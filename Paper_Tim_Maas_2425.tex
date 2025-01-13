@@ -1,0 +1,102 @@
+%
+% File ACL2016.tex
+%
+
+\documentclass[11pt]{article}
+\usepackage{acl2016}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\aclfinalcopy 
+
+\usepackage[authoryear]{natbib}
+\usepackage{url}
+
+\title{}
+\author{Tim Maas, S6079423\\
+Length: 3 pages}
+\date{13-01-2025}
+
+\begin{document}
+\maketitle
+
+%%% YOUR PART HERE
+\begin{abstract}
+\textcolor{black}{The topic of what we have been researching and what this paper is about, is the following. The difference in certain grammar and written differences between Standard English, where we take British and American English(Stnd. English) and compare it to African American Vernacular English(AAVE). We will research this through the following research question: Is there a big difference between the use of Doesn’t and Don’t between Stnd. English and AAVE? We have chosen this topic because we personally find it very interesting in how different AAVE has used words with a different spelling and use of different grammar. Furthermore we believe this study makes us better understand what the meaning of these differences are and to make us not judge thinking it is a grammar error. In this study we gathered data from literature that is available at Project Gutenberg. Here we searched for the chosen grammar and word differences in the literature.}
+\end{abstract}
+
+%% IMPORTANT: KEEP ALL SECTIONS (headers)
+%% remove the 'red' text parts
+
+\section{Introduction}
+\textcolor{black}{This research paper discusses the motivation, methods, data, results and improvement points of the research we have done. We have researched the differences in use of grammar and sentence structure between Standard American and Standard British English (Stnd. English) compared to African American Vernacular English(AAVE). The reason we have chosen to do this research is that we find it fascinating how different it can be between the languages. We find it very interesting that the grammar is technically correct, yet it still feels like it is not correct. That is also where the problem is, AAVE is generally not accepted for formal documentation and writing. Therefore most AAVE writers or people who write in AAVE have gotten criticized for not using Stnd. English grammar rules and sentence structure. Our hope is that this will lead to more attention and knowledge to this subject. So for our research we have made the following research question: Is there a big difference between the use of Doesn’t and Don’t between Stnd. English and AAVE? This research question is very specific towards a certain grammar case. This can be changed to another specific grammar case or make it more broad. However for the ability to be concrete and justifiability with the data we have, we made the decision to keep it this specific. The hypothesis that we made for the research question and the outcome we expect is the following: Both the Stnd. English and AAVE have a high frequency in use of Doesn’t, but AAVE has a higher frequency in use of Don’t than Stnd. English. With this meaning that the standard English grammar is the most common in both language, but that the AAVE grammar will only or mostly be used by AAVE itself and not much in Stnd. English.} 
+
+\section{Related Work}
+
+\textcolor{black}{After searching for related studies we found that there are a lot of studies focussing on the culture side of using AAVE in literature, however we also find a study that researched about the grading of a state wide test of students who used AAVE. There they researched the correlation between the the use of AAVE in previous mentioned test and the socio-economic background and gender of the students.~\citep{Nesbitt2022} This relates to the reason we started this research, we wanted to make sure people do not get apprehended because of their language. Another study showed the difference between Standard American English (SAE) and AAVE. In that study they mostly looked at the regional differences in America. Because there had been studies done in the Northern cities of the USA, but had not done those studies in the south. So the following study talked about the differences between the AAVE in the South and in the North.~\citep{Wolfram200} Here we got a lot of knowledge from the grammar differences within AAVE itself which is also very interesting and a topic for future research. In our last study we examined we learned about the impact it has on the language and literacy performance of African American children. The data that they found is very interesting. Since the grammar is so different at times schools have trouble finding legislation for it and with this study to give recommendations to limit negative impact if AAVE is used. Also talking about history has given us more insight about how AAVE came to life. However historically its dramatic how the belief that AAVE had made children deficient in language skills is astonishing.~\citep{Harris2024}}
+
+\section{Data}
+
+\textcolor{black}{For this study we selected a couple books from the Gutenberg project. We downloaded said chosen books and made a script to pull the chosen keywords from these books. This script not only prints the sentences so we can manually check if it fits the example or not and it counts the amount each keyword was used. After which we put the data in each category. However the way we have programmed this script we can only find the selected keywords and its sentence of which the keyword is part of. Therefore we have to check each word manually. This has put a great limit on how much data we can collect accurately. In this data we use the Stdn. English and AAVE as independent variable and the use of Don't compared to Doesn't are our dependable variables.}
+
+\paragraph{Pre-processing} \textcolor{black}{We have processed the data by selecting they keywords which are the words Don't are the words Doesn't and we filtered the words with their sentences out of the books. Then we checked them in which category they fell. Category 1: Use of Doesn't in line with our example sentence. Category 2: Use of Don't in line with our example sentence. Category 3: Use of both keywords not in line with our example sentence. The reason we have chosen to add both keywords to the category where the keywords are used in a way that are not in line with the data we are looking for is because that these uses are outside the research boundaries we set. Which where the following: Example along the lines like: She don't like coffee versus She doesn't like coffee. Therefore the use of keywords outside our boundaries are not of importance to the research of this study on the selected problem.}
+
+Table~\ref{tbl:stats} provides a summary of the data that will be used in this study. NWB stands for Not Within Boundaries. 
+\begin{table}[hbtp]\centering
+\begin{tabular}{|cccc|}
+\hline
+* & Don't & Doesn't & NWB\\
+\hline
+English & - & - & 237\\
+AAVE & 59 & 1 & 261\\
+\hline
+\end{tabular}
+\caption{The use of Don't and Doesn't compared between AAVE and Stnd. English following in our boundaries and then the use of both outside our set boundaries.}
+\label{tbl:stats}
+\end{table}
+
+
+\section{Predicted Results}
+
+\textcolor{black}{After studying the studies we have read and thinking about it what situation the selected examples would have been used, we expected the following. The Don't part we expected that there might be some cases in Stnd. English to have the keywords that were in line with our examples. However looking at part 3 you find that there are actually none. We kind of expected that too, but we doubted if it was fully without the said example. The Doesn't part we expected that the book would use that more, but our code got a couple Doesn't out of the book but they did not fit our criteria. At the NWB part we thought they would not use so much Don't in the book. That is why we found it quite a big increase. With the AAVE on the Don't part we expected that it would not be as big, but there were 59 cases. The Doesn't would be less since the AAVE would use Don't in that moment, but it as more than Stnd. English. Only one more to be exact. And the NWB part was the same as with Stnd. English, but this difference between expectation and our received data was a lot bigger.}
+
+Table~\ref{tbl:results} summarizes the data I would have expected to find
+
+
+\begin{table}[hbtp]\centering
+\begin{tabular}{|cccc|}
+\hline
+* & Don't & Doesn't & NWB\\
+\hline
+English & 5 & 50 & 150\\
+AAVE & 15 & 45 & 150\\
+\hline
+\end{tabular}
+\caption{The expected data output in the use of the keywords}
+\label{tbl:results}
+\end{table}
+
+
+\paragraph{Discussion} 
+
+\textcolor{black}{Since the data shows that there is not much use of the both keywords in Stnd. English we believe that our dataset was not big enough. Our code has helped us sniff out the keywords we were looking for but we had to manually check every keyword to fit our example. This hindered us to have a bigger dataset and that has been the biggest mistake of our research. So the meaning of the data that we have found is that the use of AAVE grammar in AAVE is used normally, but the Stnd. English grammar of the same sentence is not that common to use in novels. However we encountered that the use of our keywords namely the word Don't is enormous to our expectation. We had expected that they would use it less since a story has to be dynamic.}
+
+\section{Conclusion}
+
+\textcolor{black}{This study aimed at showing the difference in use of AAVE grammar compared to Stnd. English grammar. Our hypothesis is not fully provable. Our data does show that the AAVE grammar has been used more in AAVE writing than in Stnd. English as expected, but since we could not find the Stnd. English grammar being used in the Stnd. English book, but we did find one case in the AAVE book. Therefore our hypothesis is partly true and partly false. Since more than half of of the data gathering was done manually we could not have a huge data set meaning that the outcome of this research is less accurate and not being representative for what the actual numbers could be. Because it was done manually we also have to take in account that there is a larger amount of human interaction with the data set and is thus more susceptible to errors. This can be fixed by someone with a greater proficiency in coding. For the most accurate data collection, the next researchers of this subject have to program a script that includes the correlation between the keyword and what part and meaning it holds to the sentences.}
+
+\section{Github}
+{https://github.com/TMstudentGro/Introduction-to-research-methods/blob/main/README.md}
+%%END YOUR PART
+
+\bibliographystyle{chicago}
+\bibliography{mybib.bib}
+
+\end{document}
+
+
+
